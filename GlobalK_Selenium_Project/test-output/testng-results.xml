@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HomeChoiceTest " duration-ms="25181" started-at="2020-01-20T16:19:08Z" finished-at="2020-01-20T16:19:33Z">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePage_Test.verifyHomePage()[pri:0, instance:com.GlobalK_Selenium_Project.Test.HomePage_Test@1f57539]" name="verifyHomePage" class="com.GlobalK_Selenium_Project.Test.HomePage_Test"/>
+        <method signature="PersonLoans_Test.clickPersonalLoanLink()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="clickPersonalLoanLink" class="com.GlobalK_Selenium_Project.Test.PersonLoans_Test"/>
+        <method signature="PersonLoans_Test.verifyAmounts()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyAmounts" class="com.GlobalK_Selenium_Project.Test.PersonLoans_Test"/>
+        <method signature="PersonLoans_Test.verifyCalculator()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyCalculator" class="com.GlobalK_Selenium_Project.Test.PersonLoans_Test"/>
+        <method signature="PersonLoans_Test.verifyPersonalLoanPage()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyPersonalLoanPage" class="com.GlobalK_Selenium_Project.Test.PersonLoans_Test"/>
+        <method signature="PersonLoans_Test.verifyViewBreakDown()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyViewBreakDown" class="com.GlobalK_Selenium_Project.Test.PersonLoans_Test"/>
+      </group> <!-- HomePage -->
+    </groups>
+    <test name="chromeTest1" duration-ms="25181" started-at="2020-01-20T16:19:08Z" finished-at="2020-01-20T16:19:33Z">
+      <class name="com.GlobalK_Selenium_Project.Test.PersonLoans_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="setUp" is-config="true" duration-ms="3" started-at="2020-01-20T16:19:18Z" finished-at="2020-01-20T16:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickPersonalLoanLink()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="clickPersonalLoanLink" duration-ms="1288" started-at="2020-01-20T16:19:18Z" finished-at="2020-01-20T16:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPersonalLoanLink -->
+        <test-method status="PASS" signature="verifyAmounts()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyAmounts" duration-ms="2061" started-at="2020-01-20T16:19:19Z" finished-at="2020-01-20T16:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmounts -->
+        <test-method status="PASS" signature="verifyCalculator()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyCalculator" duration-ms="4563" started-at="2020-01-20T16:19:21Z" finished-at="2020-01-20T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculator -->
+        <test-method status="PASS" signature="verifyPersonalLoanPage()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyPersonalLoanPage" duration-ms="5037" started-at="2020-01-20T16:19:26Z" finished-at="2020-01-20T16:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalLoanPage -->
+        <test-method status="PASS" signature="verifyViewBreakDown()[pri:0, instance:com.GlobalK_Selenium_Project.Test.PersonLoans_Test@76f2b07d]" name="verifyViewBreakDown" duration-ms="2148" started-at="2020-01-20T16:19:31Z" finished-at="2020-01-20T16:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewBreakDown -->
+      </class> <!-- com.GlobalK_Selenium_Project.Test.PersonLoans_Test -->
+      <class name="com.GlobalK_Selenium_Project.Test.HomePage_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.GlobalK_Selenium_Project.Test.HomePage_Test@1f57539]" name="setUp" is-config="true" duration-ms="22" started-at="2020-01-20T16:19:08Z" finished-at="2020-01-20T16:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.GlobalK_Selenium_Project.Test.HomePage_Test@1f57539]" name="verifyHomePage" duration-ms="10039" started-at="2020-01-20T16:19:08Z" finished-at="2020-01-20T16:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+      </class> <!-- com.GlobalK_Selenium_Project.Test.HomePage_Test -->
+    </test> <!-- chromeTest1 -->
+  </suite> <!-- HomeChoiceTest  -->
+</testng-results>
